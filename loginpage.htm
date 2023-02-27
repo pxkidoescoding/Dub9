@@ -1,10 +1,11 @@
 <html>
     <meta name="viewport" content="initial-scale=1">
-    <style>+style+ 
+    <head><link href="/styles.css" rel="stylesheet"></head>
+    <style>
     .loginbar {
         display: inline-block;
         border: none;
-        margin:0px -14px 0px 0px;
+        margin:0px 0px 10px 0px;
         width:60%;
         background-color: rgb(20, 20, 20);
         color: rgb(255, 255, 255);
@@ -29,5 +30,6 @@
         border-radius: 10px;
     }
     </style>
-    <div class="loginpage"><h3 style="display: inline-block;">Let's get started with your Dub9 Account</h3><form><input type="text" class="loginbar"  name="loginas"></input><br><button style="margin-top: 10px;" class="butt">Login</button></form><a href="/"><button class="butt">Go back to Home</button></div>
+    <div class="loginpage"><h3 style="display: inline-block;">Let's get started with your Dub9 Account</h3><form action="api/neko.php" name="login" method="post">
+<input type="text" class="loginbar"  name="usr"></input><br><input type="password" class="loginbar"  name="pwd"></input><br><button style="margin-top: 10px;" value="login" class="butt">Login/Sign Up</button></form><a href="/"><button class="butt">Go back to Home</button></div>
 </html>

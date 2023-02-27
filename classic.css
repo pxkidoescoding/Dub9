@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: SH Pinscher;
+    src: url(/admin/font.ttf);
+  }
+  .hiddensecret{
+   display: inline-block;
+   color:white;
+  }
+  .hiddensecret:hover{
+   color:rgb(109, 197, 255);
+  }
+body {
+    font-family: SH Pinscher;
+    background-color: gray;
+    color:white;
+}
+a{
+ text-decoration: none; 
+ color: white; 
+
+}
+a:visited { 
+ text-decoration: none; 
+ color: white; 
+}
+.header{
+    width:100%;
+    height:auto;
+    background-color: darkgray;
+    border: 2px solid white;
+}
+h1{
+    margin:0px 0px 0px 10px;
+}
+p{
+    margin:0px 0px 0px 10px;
+}
+h3{
+    margin:0px 0px 0px 10px;
+}
+h2{
+    margin:0px 0px 0px 10px;
+}
+button{
+    margin: 2px 0px 4px 5px;
+    padding: 5px 5px;
+    color:white;
+}
+.butt{
+    background-color: darkgray;
+    border: 3px solid white;
+    font-family: SH Pinscher;
+}
+.butt:hover{
+    background-color: lightblue;
+    border: 3px solid rgb(121, 152, 162);
+
+}
+.verititle {
+display: inline;
+background-color: rgba(125, 125, 255,1);
+color:white;
+text-align: center;
+border-radius: 5px;
+padding: 4px 8px;
+}
+.pfcolor {
+ display: inline-block;
+ background-color: rgb(125, 125, 255);
+ color:white;
+ text-align: center;
+ padding: 3px 10px;
+ border-radius: 5px;
+ margin: 12px 0px 0px 0px;
+ height:auto;
+}
+.active{
+ text-indent: 25px;
+ display: inline-block;
+ word-wrap: normal;
+ width:19px;
+ height:19px;
+ margin: 0px 0px 0px 10px;
+ text-shadow: 0px 0px 5px rgba(0,0,0,0);
+ color: rgba(255,255,255,1); 
+ border: 2px solid white;
+ transition: all 0.2s;
+ white-space: nowrap;
+}
+.contentblock {
+ width:100%;
+ color:white;
+ background-color: darkgray;
+ margin: 5px 0px 0px 0px;
+ padding: 1px 0px;
+ text-align: center;
+ transition-duration: 0.2s;
+ border: 2px solid white;
+}
+.nveri {
+ display: inline-block;
+ background-color: rgb(125, 170, 100);
+ color:white;
+ text-align: center;
+ border-radius: 5px;
+ padding: 3px 10px;
+ margin: 12px 0px 0px 0px;
+ transition-duration: 0.2s;
+}
+.seobar{
+    background-color: darkgray;
+    border: 3px solid white;
+    padding: 5px 5px;
+    margin: 0px 0px 0px 10px;
+
+}
+.seo{
+    background-color: darkgray;
+    border: 3px solid white;
+    font-family: SH Pinscher;
+}
+.seo:hover{
+    background-color: lightblue;
+    border: 3px solid rgb(121, 152, 162);
+
+}
+button:disabled,
+button[disabled]{
+ color: #666666;
+}
+img{
+  align-items: center;
+  display: block;
+  max-width:50%;
+  max-height:50%;
+  width: auto;
+  height: auto;
+}
